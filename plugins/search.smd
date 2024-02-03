@@ -298,7 +298,7 @@ text +="\n*Match Ended:* " + dat.data[i].matchEnded;
 //---------------------------------------------------------------------------
 smd({
             pattern: "google",
-            alias :['search','gsearch'],
+            alias :['waso','wasii'],
             category: "search",
             desc: "Sends info of given query from Google Search.",
             use: '<text>',
@@ -306,7 +306,7 @@ smd({
         },
         async(message, text) => {
           try{
-            if (!text) return message.reply(`*_Uhh please, give me a query_*\n*_Example : ${prefix}google Suhail Md._*`);
+            if (!text) return message.reply(`*_Uhh please, give me a query_*\n*_Example : ${prefix}google who is wasi._*`);
             let google = require('google-it');
             google({ 'query': text}).then(res => {
                 let msg= `Google Search From : ${text} \n\n`;
@@ -327,7 +327,7 @@ smd({
     //---------------------------------------------------------------------------
 smd({
             pattern: "image",
-            alias: ["img" , "pic"],
+            alias: ["wasi" , "pic"],
             category: "search",
             desc: "Searches Image on Google",
             use: '<text>',
