@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "𝘅 𝗪𝗔𝗦𝗜 𝘅 ",
+      "value": "CH HASEEB ",
       "required" :true
     },   
      
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "𝗫 𝗪𝗔𝗦𝗜 𝗠𝗗"
+      "value": "𝐇𝐀𝐒𝐈-𝐌𝐃"
     }, 
     "IMAGE": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/10f668308c6df8c40b84a.jpg"
+      "value": "https://telegra.ph/file/a03584abe46e4813cc352.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -128,12 +128,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "𝗗𝗔𝗥𝗞 𝗪𝗔𝗦𝗜",
+      "value": "˜”*°•.˜”*°• CH HASEEB •°*”˜.•°*”˜",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "𝘄𝗮𝘀𝗶",
+      "value": "MH MODS OFC",
       "required": false 
     }
   }, 
