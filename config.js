@@ -16,15 +16,15 @@ global.DATABASE_URI=process.env.DATABASE_URL || ""
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/10f668308c6df8c40b84a.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va8SjGU1noyxsYBA2K2e";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va8SjGU1noyxsYBA2K2e" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a03584abe46e4813cc352.jpg"; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "923007087913" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923462054847";
 
 
 
@@ -52,7 +52,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923007087913";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923462054847";
 
 
 
@@ -63,12 +63,11 @@ module.exports = {
   HANDLERS : process.env.PREFIX || ".",
   BRANCH : process.env.BRANCH   || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "© ＧＥＮＲＡＴＥＤ ＢＹＷａｓｉ 🇵🇰" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
- 
-  author: process.env.PACK_AUTHER || "ｗａｓｉ ｔｅｃｈ ｂｏｔ",
+  caption : process.env.CAPTION || "𝐵𝑌 𝐶𝛨 𝛨𝛥𝑆𝛯𝛯𝐵\n 𝑆𝑈𝐵𝑆𝐶𝑅𝛪𝐵𝛯\n youtube.com/@mhmodsofc " , 
+  author: process.env.PACK_AUTHER || "𝚮𝚫𝐒𝚵𝚵𝚩 𝚾 𝚩𝚯𝚻",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "𝗪𝗔𝗦𝗜 𝗫 𝗕𝗢𝗧",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "𝚮𝚫𝐒𝚵𝚵𝚩 𝚾 𝚩𝚯𝚻",
+  ownername:process.env.OWNER_NAME|| "It'x HASEEB",
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
