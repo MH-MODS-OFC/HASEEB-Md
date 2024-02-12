@@ -1,7 +1,7 @@
 {
   "name": "WASI-md",
   "description": "I am WASI MD Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/wasitech1",
-  "logo": "https://telegra.ph/file/fd1a6ef0cb9ffb90fe806.jpg",
+  "logo": 
   "keywords": ["whatsappbot", "wasi", "wasi Md bot", "wasi-Md", "wassiMdWhatsaooBot", "wassiWaBot","WasiMD","wasi Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/suhail/",
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "9233007087913"
+      "value": "923462054847"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
