@@ -1,7 +1,7 @@
 {
   "name": "WASI-md",
   "description": "I am WASI MD Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/wasitech1",
-  "logo": 
+  "logo": "https://telegra.ph/file/fd1a6ef0cb9ffb90fe806.jpg",
   "keywords": ["whatsappbot", "wasi", "wasi Md bot", "wasi-Md", "wassiMdWhatsaooBot", "wassiWaBot","WasiMD","wasi Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/suhail/",
@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "CH HASEEB ",
+      "value": "CH HASEEB",
       "required" :true
     },   
      
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923462054847"
+      "value": "923175879795"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -128,12 +128,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "˜”*°•.˜”*°• CH HASEEB •°*”˜.•°*”˜",
+      "value": "𝗗𝗔𝗥𝗞 𝐇𝐀𝐒𝐈",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "MH MODS OFC",
+      "value": "CH HASEEB",
       "required": false 
     }
   }, 
